@@ -1,0 +1,12 @@
+.task-list { max-width:400px; margin:2rem auto; font-family:sans-serif; }
+.task-form { display:flex; margin-bottom:1rem; }
+.task-form input { flex:1; padding:0.5rem; font-size:1rem; }
+.task-form button { margin-left:0.5rem; padding:0.5rem 1rem; }
+.tasks { list-style:none; padding:0; }
+.tasks li { display:flex; align-items:center; margin-bottom:0.5rem; }
+.remove-btn {
+  margin-left:auto;
+  background:#e74c3c; color:white; border:none;
+  padding:0.2rem 0.6rem; cursor:pointer;
+}
+.empty { font-style:italic; color:#666; }
